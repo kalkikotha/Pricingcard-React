@@ -18,7 +18,7 @@ function Card(props) {
 							})
 						}
 					</ul>
-					<a href="#" className="btn btn-block btn-primary text-uppercase" onClick={() => props.handleBtnClick(props.data.subscriptionType)}>Button</a>
+					<a href="#button" className="btn btn-block btn-primary text-uppercase" onClick={() => props.handleBtnClick(props.data.subscriptionType)}>Button</a>
 				</div>
 			</div>
 		</div>
